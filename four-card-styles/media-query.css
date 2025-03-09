@@ -1,0 +1,12 @@
+@media (max-width: 800px) {
+  .main-container {
+    margin-block-start: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .second-section {
+    grid-template-columns: none;
+  }
+}
+

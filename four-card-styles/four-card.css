@@ -1,0 +1,108 @@
+.main-container {
+  width: auto;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 28rem;
+  margin-block-end: 3rem;
+}
+
+.main-header-light {
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+.main-header-thick {
+  font-size: 2rem;
+  text-align: center;
+  margin-block-end: 0.8rem;
+}
+
+.main-body {
+  font-size: 0.8rem;
+  text-align: center;
+  color: hsl(212, 6%, 44%);
+}
+
+/*this is the implementation for the second section*/
+.second-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card-container {
+  background-color: white;
+  box-shadow: 0 0.6rem 2rem rgb(231, 231, 247);
+  border-radius: 0.5rem;
+  padding-block-end: 3rem;
+}
+
+/*this is the header colouring section*/
+.header-colour-cyan {
+  width: auto;
+  height: 0.3rem;
+  background-color: hsl(180, 62%, 55%);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.header-colour-red {
+  width: auto;
+  height: 0.3rem;
+  background-color: hsl(0, 78%, 62%);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.header-colour-yellow {
+  width: auto;
+  height: 0.3rem;
+  background-color: hsl(34, 97%, 64%);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.header-colour-blue {
+  width: auto;
+  height: 0.3rem;
+  background-color: hsl(212, 86%, 64%);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+/*this is a card text styling*/
+.header-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-block-end: 0.5rem;
+}
+
+.body-text {
+  font-size: 0.8rem;
+  color: hsl(212, 6%, 44%);
+}
+
+.icon-container {
+  text-align: right;
+  padding-inline-start: 3rem;
+  padding-inline-end: 3rem;
+}
+
+.padding-font {
+  padding: 1.5rem;
+}
+
+/*this is for horizontal card implementation*/
+.horizontal-card-one {
+  margin-block-end: 1.5rem;
+}

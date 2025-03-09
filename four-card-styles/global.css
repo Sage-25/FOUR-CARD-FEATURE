@@ -1,0 +1,22 @@
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  color: hsl(234, 12%, 34%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
